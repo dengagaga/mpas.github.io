@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background: url(bgc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.flex {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title-1 {
+    font-style: italic;
+    color: #3E4194;
+    font-size: 104px;
+    font-weight: 300;
+    line-height: 131.61px;
+}
+.title-2 {
+    color: #ED3438;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 67.12px;
+}
+@media(max-width:768px) {
+    .title-1 {
+        font-style: italic;
+        color: #3E4194;
+        font-size: 59px;
+        font-weight: 300;
+        line-height: 73.61px;
+    }
+    .title-2 {
+        color: #ED3438;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 37.12px;
+    }
+    .flex img {
+        max-width: 230px;
+    }
+}
+@media(max-width:500px) {
+    .title-1 {
+        font-style: italic;
+        color: #3E4194;
+        font-size: 45px;
+        font-weight: 300;
+        line-height: 53.61px;
+    }
+    .title-2 {
+        color: #ED3438;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 34.12px;
+    }
+    .flex img {
+        max-width: 230px;
+    }
+    .flex img {
+        max-width: 187px;
+    }
+}
