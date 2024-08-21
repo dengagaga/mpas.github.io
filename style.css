@@ -118,6 +118,16 @@ body {
     font-size: 53px;
     line-height: 67.12px;
 }
+.flex.element-animation {
+	opacity: 0;
+	/* transform: translateY(-30%); */
+}
+.flex.element-animation.element-show {
+	opacity: 1;
+	transition: all 2s;
+	transform: translateY(0%);
+	
+}
 @media(max-width:768px) {
     .title-1 {
         font-style: italic;
