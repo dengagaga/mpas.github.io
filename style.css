@@ -178,6 +178,10 @@ body {
     .text {
         font-size: 16px;
     }
+    .flex {
+        height: 87vh;
+
+    }
     .title-2 {
         color: #ED3438;
         font-weight: 400;
